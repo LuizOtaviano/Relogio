@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#relogio {
+    width: 80vw;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0px 2px 30px 2px white;
+}
+
+@media screen and (min-width: 500px){
+    #relogio {
+        width: 450px;
+        font-size: 5em;
+    }
+}
